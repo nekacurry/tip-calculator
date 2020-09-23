@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Tip Calculator</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Titillium+Web&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <main>
+            <h1>Tip Calculator</h1>
+            <div class="boxes">
+                <p>Bill Amount
+                    <br><input id="bill" value="10.00" type="number">
+                </p>
+                <p>% Tip
+                    <br><input id="tip" value="20" type="number">
+                </p>
+                <p># People
+                    <br><input id="people" value="1" type="number">
+                </p>
+            </div>
+            <section id="totals">
+                <ul>
+                    <li class="card">
+                        <p>Tip</p>
+                        <div id="display">0.00</div>
+                    </li>
+                    <li class="card">
+                        <p>Final Total</p>
+                        <div id="totalplus">0.00</div>
+                    </li>
+            </section>
+        </main>
+
+        <script src="script.js"></script>
+    </body>
+</html>
