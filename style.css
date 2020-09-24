@@ -70,14 +70,14 @@ div {
     padding-bottom: 20px;
 }
 .card div{
-    color: rgb(233, 89, 64);
+    color: #e95940;
 }
 .boxes {
     background-color: #f5f5f5b4;
     margin-left: -2%;
     margin-right: -2%;
     border-style: solid;
-    border-color: #c2895b;
+    border-color: #e95940;
     border-width: 1px;
 }
 input {
