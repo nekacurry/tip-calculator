@@ -1,15 +1,28 @@
-body {
-    background-color: rgb(146, 169, 245);
+.bg{
+    background: repeating-linear-gradient(
+        90deg,
+        whitesmoke, 
+        whitesmoke 10%, 
+        #ecbb93 10%, 
+        #ecbb93 91%
+    )
+    
 }
 main{
     text-align: center;
     margin-top: 5%;
     font-family: "Open Sans";
+    color: #472509;
 }
 h1{
-    font-size: 3em;
-    text-decoration: underline;
-    font-family: "Titillium Web";
+    font-size: 4em;
+    font-family: "Montserrat";
+    color: whitesmoke;
+    text-shadow: -1px 1px 0 #9b5013,
+                1px 1px 0 #9b5013,
+                1px -1px 0 #9b5013,
+                -1px -1px 0 #9b5013;
+    
 }
 div.boxes{
     display: flex;
@@ -42,9 +55,27 @@ div {
 .card {
     width: 300px;
     margin: 1em;
-    background-color: whitesmoke;
+    background-color: white;
     border-style: solid;
-    border-width: 1px;
-    border-color: rgb(39, 39, 39);
+    border-width: 2px;
+    border-color: #c2895b;
     padding-bottom: 20px;
+}
+.card div{
+    color: rgb(233, 89, 64);
+}
+.boxes {
+    background-color: #f5f5f5b4;
+    margin-left: -2%;
+    margin-right: -2%;
+    border-style: solid;
+    border-color: #c2895b;
+    border-width: 1px;
+}
+input {
+    border-color: #c2895b;
+    border-style: solid;
+    border-width: 2px;
+    color: #472509;
+    font-family: "Open Sans";
 }
