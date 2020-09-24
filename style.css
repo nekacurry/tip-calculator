@@ -52,6 +52,14 @@ div {
     font-size: 2em;
     padding-right: 1.5%;
 }
+#final {
+    margin-bottom: 0%;
+}
+.card p:nth-child(2) {
+    font-size: xx-small;
+    margin-top: 0;
+    margin-bottom: 18px;
+}
 .card {
     width: 300px;
     margin: 1em;
